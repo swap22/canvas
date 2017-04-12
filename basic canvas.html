@@ -18,10 +18,19 @@
         //ctx.fillRect(75,75, 150, 150);
 
         // Line
-            ctx.moveTo(0, 0);
-            ctx.lineTo(250, 100); // 250 over and down 100
-            ctx.stroke(); // to give border
-    
+          //  ctx.moveTo(0, 0);
+           // ctx.lineTo(250, 100); // 250 over and down 100
+           // ctx.stroke(); // to give border
+
+        //Circle
+            ctx.beginPath();
+            ctx.arc(150, 150, 60, 0, 2 * Math.PI); //standard formula for circle
+            ctx.fillStyle = 'yellow';
+            ctx.fill();
+            ctx.lineWidth = 50;
+            ctx.strokeStyle = 'blue';
+            ctx.stroke();
+           
 
     </script>
 </body>
